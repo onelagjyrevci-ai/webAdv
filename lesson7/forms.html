@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form>
+        <fieldset>
+            <legend>Personal Information</legend>
+         <label for="firstname">First name:</label><br>
+        <input type="text" name="firstname" id="firstname" placeholder="John" value="John" readonly><br><br>
+        <label for="lastname">Last name:</label><br>
+        <input type="text" name="lastname" id="lastname" placeholder="Doe" disabled><br><br>
+        <label for="email">Email:</label><br>
+        <input type="email" name="email" id="email" placeholder="johndoe@example.com" required><br><br>
+        <label for="password">Password</label><br>
+        <input type="password" name="password" id="password" placeholder="********" size="20" required><br><br>
+        <label>Gender:</label><br>
+        <input type="radio" name="gender" id="male" value="male">
+         <label for="male">Male</label><br>
+        <input type="radio" name="gender" id="female" value="female">
+         <label for="female">Female</label><br><br>
+         <label>Hobbies:</label><br>
+         <input type="checkbox" name="gaming" id="gaming" value="Gaming">
+         <label for="gaming">Gaming</label><br>
+         <input type="checkbox" name="foorball" id="football" value="Football">
+         <label for="football">Football</label><br>
+         <input type="checkbox" name="Swimming" id="Swimming" value="Swimming">
+         <label for="Swimming">Swimming</label><br><br>
+         <select name="pet" id="pet">
+            <option value="Dog">Dog</option>
+            <option value="Cat">Cat</option>
+            <option value="Parrot">Parrot</option>
+         </select><br><br>
+         <textarea name="message" rows="10" cols="30" maxlength="50"></textarea><br><br>
+         <input type="submit" name="submit" id="submit"><br>
+</fieldset>
+       
+
+    </form>
+    
+</body>
+</html>
