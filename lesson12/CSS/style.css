@@ -1,0 +1,61 @@
+@font-face {
+    font-family: Fake Identity ;
+    src: url(/lesson12/fonts/fonts/FakeIdentity.ttf);
+}
+
+
+h1 {
+    color: hotpink;
+    letter-spacing: 20px;
+    word-spacing: 20px;
+    font-family: Fake Identity;
+}
+
+p {
+    text-indent: 50px;
+    text-align: center;
+      
+}
+#paragraph {
+    writing-mode: vertical-lr;  
+}
+
+h2{
+    text-decoration: overline;
+}
+
+h3{
+    text-decoration: line-through;
+
+}
+
+h4 {
+    text-decoration: underline;
+} 
+
+.myelement {
+    color: aqua;
+}
+
+#NormalText {
+    font-style: normal;
+  
+}
+#ItalicText {
+    font-style: italic;
+}
+#ObliqueText {
+    font-style: oblique;
+}
+
+a:hover {
+    color: aquamarine;
+}
+
+a:visited {
+    color: red;
+}
+
+a:active {
+    color: hotpink;
+}
