@@ -1,0 +1,46 @@
+ul {
+  list-style-type:none;
+     /*list-style-image: url("../image/ee.png");*/
+    padding: 0;
+    border: 2px solid grey;
+  
+}
+
+ul li {
+    padding: 8px 16px;
+    border-bottom: 2px solid gray;
+}
+
+ol {
+    /*list-style-type: lower-latin;*/
+    background-color: pink;
+    border: 2px solid grey;
+}
+
+table {
+    border-collapse: collapse;
+}
+
+td, th {
+    border: 1px solid #eee;
+    padding: 15px;
+}
+
+tbody  tr:nth-child(odd){
+    background-color: hotpink;
+}
+
+tbody  tr:nth-child(even){
+    background-color: pink;
+}
+
+thead {
+    background-color: rgb(151, 4, 107);
+}
+
+div {
+    overflow: scroll;
+    background-color: #f27979;
+    width: 200px;
+    height: 200px;
+}
