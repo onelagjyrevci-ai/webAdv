@@ -1,0 +1,66 @@
+/* Combinators*/
+
+/*Descendet*/
+
+article p {
+    background-color: purple;
+    color: white;
+    padding: 20px;
+    
+}
+
+/*Child*/
+
+article > p {
+    background: red;
+}
+/*General Siblings*/
+
+article ~ p {
+    background-color: aqua;
+    color: white;
+    padding: 20px;
+}
+/*Adjacent Siblings*/
+article + p {
+    background-color: orange;
+    color: white;
+    padding: 20px;
+}
+
+p:hover {
+    background-color: pink;
+}
+p:first-child {
+    background-color: green;
+}
+
+input:in-range {
+    border: 2px solid green;
+}
+input:out-of-range {
+    border: 2px solid green;
+}
+input:required {
+    background-color:yellow;
+}
+input:focus {
+    background-color: pink;
+}
+
+span:first-of-type {
+    background-color: black;
+    color: white;
+    padding: 20px;
+}
+
+form {
+    margin-top: 20px;
+}
+
+p::first-line{
+    color: blue;
+}
+h1::after {
+    content: "After heading"
+}
