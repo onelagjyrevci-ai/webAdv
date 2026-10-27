@@ -4,26 +4,58 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-    <ul>
-        <li class="active"><a href="#">Home</a></li>
-        <li ><a href="#">News</a></li>
-        <li ><a href="#">Contact</a></li>
-        <li ><a href="#">About</a></li>
+    <ul id="horizontal-menu">
+        <li class="active"><a href="#home">Home</a></li>
+        <li ><a href="#news">News</a></li>
+        <li ><a href="#contact">Contact</a></li>
+        <li ><a href="#abput">About</a></li>
     </ul>
 
     <hr>
 
     <div class="navbar">
        <a href="#home">Home</a>
-       <a href="#about">About</a>
-    </div>
-
+       <a href="#news">News</a>
     <div class="dropdown">
+        <button class="dropbtn">Dropown</button>
+        <div class="dropdown-content">
+            <div class="row">
+                <div class="column">
+                    <h3>Submenu 1</h3>
+                    <a href="#">Link 1</a>
+                    <a href="#">Link 2</a>
+                    <a href="#">Link 3</a>
+                </div>
 
-        
+                <div class="column">
+                    <h3>Submenu 2</h3>
+                    <a href="#">Link 1</a>
+                    <a href="#">Link 2</a>
+                    <a href="#">Link 3</a>
+                </div>
+
+                <div class="column">
+                    <h3>Submenu 3</h3>
+                    <a href="#">Link 1</a>
+                    <a href="#">Link 2</a>
+                    <a href="#">Link 3</a>
+                </div>
+
+            </div>
+        </div>
+        </div>
+ 
     </div>
+
+    <ul id="vertical-menu">
+        <li class="active"><a href="#home">Home</a></li>
+        <li ><a href="#news">News</a></li>
+        <li ><a href="#contact">Contact</a></li>
+        <li ><a href="#abput">About</a></li>
+    </ul>
     
 </body>
 </html>
