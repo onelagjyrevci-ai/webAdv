@@ -79,3 +79,59 @@ body{
 .dropdown-content .dropdown:hover {
     display: block;
 }
+
+.column{
+    float:left;
+    width: 33.33%;
+    color:#ccc;
+    padding: 10px;
+    height: 250px;
+}
+
+.column a {
+    float: none;
+    color: black;
+    padding: 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+.column a:hover {
+    background-color: #ccc;
+}
+
+.row:after {
+    content:"";
+    display: table;
+    clear:both;
+}
+
+#vertical-menu{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 25%;
+    background-color: #f1f1f1;
+    position: fixed;
+    height: 100%;
+    overflow: auto;
+}
+
+#vertical-menu li a {
+    display: block;
+    color: #000;
+    padding: 8px 16px;
+    text-decoration: none;
+}
+#vertical-menu li a:active {
+    background-color: #4CAF50;
+    color: white;
+
+}
+
+#vertical-menu li a:hover {
+    background-color: #555;
+    color: white;
+
+}
