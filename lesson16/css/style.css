@@ -17,3 +17,37 @@ div.desc{
     padding: 15px;
     text-align: center;
 }
+
+a [href="https://shkolladigjitale.com/"]{
+    color: hotpink;
+}
+
+p[class*="ds"]{
+    background-color: pink;
+    color: white;
+    padding: 20px;
+}
+
+div[id~="ds"]{
+    background-color: aquamarine;
+    color:white;
+    padding: 20px;
+}
+
+img[title^="blue"]{
+    border: 2px solid blue;
+}
+
+h1[class|=heading]{
+    background-color: purple;
+    color: white;
+    padding: 20px;
+}
+
+input[placeholder$="name"]{
+    border: 2px solid red;
+}
+
+input[readonly]{
+    border: 2px solid green;
+}
